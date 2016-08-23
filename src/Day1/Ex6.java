@@ -10,7 +10,7 @@ public class Ex6 {
             a[i] = (int) Math.random();
         }
 
-        int min = 9999999;
+        int min = Integer.MAX_VALUE;
         for (int i = 0; i < 10; i++) {
             if (a[i] < min) {
                 min = a[i];

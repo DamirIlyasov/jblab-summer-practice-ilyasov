@@ -6,14 +6,10 @@ package Day1;
 public class Ex4 {
     public static void main(String[] args) {
         int[] a = new int[100];
-        for (int i = 0; i <= 100; i++) {
-            a[i] = (int) Math.random();
-        }
-
         int sum = 0;
         int prod = 1;
-
         for (int i = 0; i <= 100; i++) {
+            a[i] = (int) Math.random();
             if (a[i] % 2 == 0) {
                 sum = sum + a[i];
             }
