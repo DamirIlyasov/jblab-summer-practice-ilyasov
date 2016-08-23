@@ -1,3 +1,5 @@
+package Day1;
+
 /**
  * Created by hp on 22.08.2016.
  */
