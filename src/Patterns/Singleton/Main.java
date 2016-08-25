@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-     Singleton object = Singleton.getObject();
+        Singleton object = Singleton.getObject();
 
         Scanner scanner = new Scanner(System.in);
         String n = scanner.nextLine();
@@ -13,5 +13,6 @@ public class Main {
         object.setMsg(n);
         object.printMsg();
 
+        
     }
 }
