@@ -13,6 +13,6 @@ public class Main {
         object.setMsg(n);
         object.printMsg();
 
-        
+
     }
 }
