@@ -41,7 +41,7 @@ public class RangeCollection {
         public Integer next() {
             if (hasNext()) {
                 poss++;
-                return (poss);
+                return (poss-1);
             }
             return null;
         }
