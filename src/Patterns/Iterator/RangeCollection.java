@@ -40,7 +40,8 @@ public class RangeCollection {
         @Override
         public Integer next() {
             if (hasNext()) {
-                return (poss + 1);
+                poss++;
+                return (poss-1);
             }
             return null;
         }
