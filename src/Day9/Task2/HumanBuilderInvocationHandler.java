@@ -19,7 +19,9 @@ public class HumanBuilderInvocationHandler implements InvocationHandler {
     }
     public static void main(String[] args) {
         MyHuman myHuman = MyHuman.createHuman().setName("Damir").setLastName("Asdasd").build();
-        
+        myHuman.say();
+        Human human = myHuman.createHumanBuilder(myHuman);
+        human.say();
     }
 
 }
